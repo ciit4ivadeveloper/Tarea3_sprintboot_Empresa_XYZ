@@ -1,8 +1,5 @@
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\Persona.java
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\MyRouter.java
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\MySpringBootApplication.java
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\MyBean.java
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\MyService.java
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\PersonaRouter.java
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\MySpringBean.java
-C:\practicaJueves\spring-camel-integration\src\main\java\org\apache\camel\learn\CreatePersonaProcesor.java
+D:\RunInstall\Workspace_Integracion\Tarea3_sprintboot_Empresa_XYZ\src\main\java\org\apache\camel\learn\MySpringBootApplication.java
+D:\RunInstall\Workspace_Integracion\Tarea3_sprintboot_Empresa_XYZ\src\main\java\org\apache\camel\learn\PersonaProcesador.java
+D:\RunInstall\Workspace_Integracion\Tarea3_sprintboot_Empresa_XYZ\src\main\java\org\apache\camel\learn\Persona.java
+D:\RunInstall\Workspace_Integracion\Tarea3_sprintboot_Empresa_XYZ\src\main\java\org\apache\camel\learn\MyService.java
+D:\RunInstall\Workspace_Integracion\Tarea3_sprintboot_Empresa_XYZ\src\main\java\org\apache\camel\learn\PersonaRouter.java

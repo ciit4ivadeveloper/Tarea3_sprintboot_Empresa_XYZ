@@ -6,7 +6,7 @@ public class Persona {
     private String identificacion;
     private String nombres;
     private String apellidos;
-    private String telefonos;
+    private String telefono;
     private String direccion;
     private int perfilCompra;  //Presencial 1, // 2 online
     private double valorCompra;
@@ -14,13 +14,13 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(int codigo, String identificacion, String nombres, String apellidos, String telefonos,
+    public Persona(int codigo, String identificacion, String nombres, String apellidos, String telefono,
             String direccion, int perfilCompra, double valorCompra) {
         this.codigo = codigo;
         this.identificacion = identificacion;
         this.nombres = nombres;
         this.apellidos = apellidos;
-        this.telefonos = telefonos;
+        this.telefono = telefono;
         this.direccion = direccion;
         this.perfilCompra = perfilCompra;
         this.valorCompra = valorCompra;
@@ -58,12 +58,12 @@ public class Persona {
         this.apellidos = apellidos;
     }
 
-    public String getTelefonos() {
-        return telefonos;
+    public String getTelefono() {
+        return telefono;
     }
 
-    public void setTelefonos(String telefonos) {
-        this.telefonos = telefonos;
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
 
     public String getDireccion() {
@@ -93,7 +93,7 @@ public class Persona {
     @Override
     public String toString() {
         return "Persona [codigo=" + codigo + ", identificacion=" + identificacion + ", nombres=" + nombres
-                + ", apellidos=" + apellidos + ", telefonos=" + telefonos + ", direccion=" + direccion
+                + ", apellidos=" + apellidos + ", telefono=" + telefono + ", direccion=" + direccion
                 + ", perfilCompra=" + perfilCompra + ", valorCompra=" + valorCompra + "]";
     }    
 }
