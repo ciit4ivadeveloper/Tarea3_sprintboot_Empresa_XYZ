@@ -1,0 +1,8 @@
+org\apache\camel\learn\MySpringBean.class
+org\apache\camel\learn\MyRouter.class
+org\apache\camel\learn\Persona.class
+org\apache\camel\learn\MyBean.class
+org\apache\camel\learn\CreatePersonaProcesor.class
+org\apache\camel\learn\PersonaRouter.class
+org\apache\camel\learn\MyService.class
+org\apache\camel\learn\MySpringBootApplication.class
