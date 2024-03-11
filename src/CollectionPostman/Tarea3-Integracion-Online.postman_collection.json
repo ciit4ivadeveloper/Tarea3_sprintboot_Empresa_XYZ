@@ -1,0 +1,166 @@
+{
+	"info": {
+		"_postman_id": "4a2052c2-7f49-4cda-8091-b16d3d529d63",
+		"name": "Tarea3-Integracion-Online",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27609676"
+	},
+	"item": [
+		{
+			"name": "Empresa-ABC",
+			"item": [
+				{
+					"name": "getPersonaPuntoNet",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5045/persona",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5045",
+							"path": [
+								"persona"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostPersonaPuntoNet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\"codigo\":12,\"identificacion\":\"0301293882\",\"nombres\":\"Carmen Tilde\",\"apellidos\":\"Ortega Mu±oz\",\"telefono\":\"09845012323\",\"direccion\":\"Av. Americas\",\"perfilCompra\":2,\"valorCompra\":17.35}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5045/persona",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5045",
+							"path": [
+								"persona"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Empresa-123",
+			"item": [
+				{
+					"name": "getPersonaPython",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/persona",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"persona"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PostPersonaPython",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"codigo\": 2,\r\n        \"identificacion\": \"0301293882\",\r\n        \"nombres\": \"Pedro Andres\",\r\n        \"apellidos\": \"Tapia Peralta\",\r\n        \"telefono\": \"0192382923\",\r\n        \"direccion\": \"Chiquintad\",\r\n        \"perfilCompra\": 2,\r\n        \"valorCompra\": 12.12\r\n    } ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/persona",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"persona"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Empresa XYZ",
+			"item": [
+				{
+					"name": "RealizaCompraGet",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/createperson",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"createperson"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RealizaCompraPost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n    \"codigo\": 1,\r\n    \"identificacion\": \"0102030405\",\r\n    \"nombres\": \"andrea gabriel\",\r\n    \"apellidos\": \"Campoverde riera\",\r\n    \"telefono\": \"0984698124\",\r\n    \"direccion\": \"Casa\",\r\n    \"perfilCompra\": 1,\r\n    \"valorCompra\": 8.9\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/realizaCompra",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"realizaCompra"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
