@@ -11,12 +11,12 @@ public class PersonaProcesador implements Processor {
         Persona nuevoPersona = new Persona();
         nuevoPersona.setCodigo(12);
         nuevoPersona.setIdentificacion("0301293882");
-        nuevoPersona.setNombres("Carmen JUAN");
+        nuevoPersona.setNombres("CAMBIO PEREZ");
         nuevoPersona.setApellidos("VALO Muñoz");
         nuevoPersona.setTelefono("09845012323");
-        nuevoPersona.setDireccion("Av. Americas");
-        nuevoPersona.setPerfilCompra(2); //1 presencial, 2 online
-        nuevoPersona.setValorCompra(17.35);
+        nuevoPersona.setDireccion("Av. jaajja");
+        nuevoPersona.setPerfilCompra(1); //1 presencial, 2 online
+        nuevoPersona.setValorCompra(89.35);
         exchange.getIn().setBody(nuevoPersona);
     }
     
